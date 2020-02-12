@@ -26,6 +26,7 @@ class linkedlist(node):
           while actualnode.next is not None:
               actualnode = actualnode.next
           actualnode.next = newnode
+          
   def remove(self, index):
       self.count = index
       actualnode = self.head
