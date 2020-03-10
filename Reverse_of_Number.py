@@ -1,4 +1,4 @@
-Number = int(input())
+Number = int(input()) #Integer input
 ReversedNumber = 0
 while Number != 0:
     LastDigit = Number % 10
